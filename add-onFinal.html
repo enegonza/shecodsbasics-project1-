@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cycling is good</title>
+
+
+
+    <style>
+        body {
+            background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        img {
+            width: 100%;
+            border-radius: 14px;
+        }
+
+        p {
+            text-align: center;
+        }
+
+
+        button {
+            display: block;
+            margin: 0 auto;
+            border: 2px solid #fff1eb;
+            font-size: 18px;
+            border-radius: 14px;
+            padding: 8px 10px;
+            transition: all 150ms ease-in-out;
+            background: white;
+            box-shadow: inset 0px 5px 15px rgba(0, 0, 0, .4), inset 0px -5px 15px rgba(225, 225, 225, .4);
+            box-shadow: 5px 7px 5px rgba(0, 0, 0, .3);
+        }
+
+        button:hover {
+            background: grey;
+            color: white;
+            cursor: pointer;
+            box-shadow: inset 0px 5px 15px rgba(0, 0, 0, .4), inset 0px -5px 15px rgba(225, 225, 225, .4);
+        }
+
+        .container {
+            margin: auto;
+            max-width: 600px;
+            background: white;
+            padding: 20px 25px;
+            border-radius: 15px;
+
+        }
+
+        footer {
+            text-align: center;
+            margin: 10px 0;
+            font-size: 20px;
+        }
+
+        .gallery-start {
+            border-radius: 10px;
+            transition: transform 150ms ease-in-out, filter 850ms ease-in;
+
+        }
+
+        .gallery-start:hover {
+            filter: contrast(60%);
+            transform: scale(.9)
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-gap: 12px;
+            margin: 15px;
+            grid-auto-rows: minmax(100px, auto);
+
+        }
+
+        .gallery img {
+            max-width: 100%;
+            aspect-ratio: 1/1.3;
+            transition: transform 75ms ease-in-out;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.5);
+
+        }
+
+        .themeButton {
+            font: 16px;
+            background: #ace0f9;
+            color: rgb(74, 98, 110);
+            padding: 5px 8px;
+            border: 2px solid #b1d8f2;
+            box-shadow: inset 0px 5px 15px rgba(0, 0, 0, .4), inset 0px -5px 15px rgba(225, 225, 225, .4);
+            box-shadow: 5px 7px 5px rgba(0, 0, 0, .3);
+
+        }
+
+        .themeButton:hover {
+            background: #182331;
+            color: rgb(74, 98, 110);
+        }
+
+        .dark .themeButton {
+            background: #182331;
+            color: rgb(74, 98, 110);
+            border: 3px solid #16253a;
+            box-shadow: inset 0px 5px 15px rgba(0, 0, 0, .4), inset 0px -5px 15px rgba(225, 225, 225, .4);
+            box-shadow: 5px 7px 5px rgba(0, 0, 0, .3);
+        }
+
+        .dark .themeButton:hover {
+            background: #ace0f9;
+            color: rgb(74, 98, 110);
+        }
+
+
+
+        .dark {
+            background: linear-gradient(180.2deg, rgb(30, 33, 48) 6.8%, rgb(74, 98, 110) 131%);
+            color: whitesmoke;
+        }
+
+        .dark a {
+            color: #b1d8f2;
+        }
+
+        .dark .container {
+            background: rgb(43, 43, 43);
+        }
+    </style>
+
+</head>
+
+<body>
+    <button class="themeButton"> Change Theme </button>
+    <br />
+
+    <div class="container">
+        <h1> 🚲 Cycling - My Hobby </h1>
+        <hr />
+        <h2> Cycling challenges my endurance, in a fun way </h2>
+
+        <a href="https://en.wikipedia.org/wiki/Cycle_sport" target="_blank">
+
+            <img src=" https://s3.amazonaws.com/shecodesio-production/uploads/files/000/130/583/original/cycle1.jpg?1719455134"
+                alt="" class="gallery-start" />
+        </a>
+
+        <div class="gallery">
+            <img src=" https://s3.amazonaws.com/shecodesio-production/uploads/files/000/130/584/original/cycle2.jpg?1719455139"
+                alt="">
+            <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/130/585/original/cycling4.jpg?1719455169"
+                alt="">
+            <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/130/586/original/cycling5.jpg?1719455180"
+                alt="">
+            <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/130/587/original/cycling7.jpg?1719455191"
+                alt="">
+        </div>
+
+
+        <p>
+            Cycle sport is competitive physical activity using bicycles. There are several categories of bicycle racing
+            including
+            road bicycle racing, cyclo-cross, mountain bike racing, track cycling, BMX, and cycle speedway. Non-racing
+            cycling
+            sports include artistic cycling, cycle polo, freestyle BMX, mountain bike trials, hardcourt bike polo and
+            cycleball. The
+            Union Cycliste Internationale (UCI) is the world governing body for cycling and international competitive
+            cycling
+            events. The International Human Powered Vehicle Association is the governing body for human-powered vehicles
+            that
+            imposes far fewer restrictions on their design than does the UCI. The UltraMarathon Cycling Association is
+            the
+            governing
+            body for many ultra-distance cycling races.
+            <br />
+            <br />
+            Bicycle racing is recognised as an Olympic sport. Bicycle races are popular all over the world, especially
+            in
+            Europe.
+            The countries most devoted to bicycle racing include Belgium, Denmark, France, Germany, Italy, the
+            Netherlands,
+            Spain
+            and Switzerland.[1] Other countries with international standing include Australia, Luxembourg, United
+            Kingdom,
+            United
+            States and Colombia.
+
+        </p>
+
+        <a href="https://en.wikipedia.org/wiki/Cycle_sport" target="_blank">
+            <button> Learn More</button>
+        </a>
+
+
+    </div>
+
+    <br />
+    <footer> Coded by ené Gonza</footer>
+    <br />
+
+    <script>
+        function changTheme() {
+
+            let body = document.querySelector("body");
+
+            if (body.classList.contains("dark")) {
+                body.classList.remove("dark")
+            } else { body.classList.add("dark") }
+        }
+        let themeButton = document.querySelector(".themeButton");
+        themeButton.addEventListener('click', changTheme)
+
+
+
+
+
+    </script>
+
+</body>
+
+</html>
